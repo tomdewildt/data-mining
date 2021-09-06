@@ -1,31 +1,29 @@
-# An Open Machine Learning Course
+# Data Mining
+[![License](https://img.shields.io/github/license/tomdewildt/data-mining)](https://github.com/tomdewildt/data-mining/blob/master/LICENSE)
 
-Jupyter notebooks for teaching machine learning. Based on scikit-learn and Keras, with OpenML used to experiment more extensively on many datasets.
+Code for The Data Mining course of my master's degree.
 
-[Course website](https://ml-course.github.io/)
+# How To Run
 
-## Sources
-### Practice-oriented materials
-We use many code examples from the following excellent books. We urge you to read them for a more complete coverage of machine learning in Python:
+Prerequisites:
+* virtualenv version ```20.0.3``` or later
+* python version ```3.8.5``` or later
 
-[Introduction to Machine Learning with Python](http://shop.oreilly.com/product/0636920030515.do>) by [Andreas Mueller](http://amueller.io) and [Sarah Guido](https://twitter.com/sarah_guido). Focussing entirely on scikit-learn, and written by one of its core developers, this book offers clear guidance on how to do machine learning with Python.
+### Development
 
-[Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) by François Chollet. Written by the author of the Keras library, this book offers a clear explanation of deep learning with practical examples.
+1. Run ```make init``` to initialize the environment.
+2. Run ```make notebook``` to start the notebook server.
 
-[Python machine learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/ref=sr_1_1?ie=UTF8&qid=1472342570&sr=8-1&keywords=sebastian+raschka) by Sebastian Raschka. One of the classic textbooks on how to do machine learning with Python.
+# References
 
-[Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) by Wes McKinney. A more introductory and broader text on doing data science with Python.
+[Jupyter Docs](https://jupyter.org/documentation)
 
-### Theory-oriented materials
-For a deeper understanding of machine learning techniques, we can recommend the following books:
+[Pandas Docs](https://pandas.pydata.org/docs/)
 
-"[Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)" by Marc Deisenroth, A. Aldo Faisal and Cheng Soon Ong. This provides the basics of linear algebra, geometry, probabilities, and continuous optimization, and how they are used in several machine learning algorithms. The PDF is available for free.
+[Numpy Docs](https://numpy.org/doc/)
 
-"[The Elements of Statistical Learning: Data Mining, Inference, and Prediction. (2nd edition)](https://statweb.stanford.edu/~tibs/ElemStatLearn/)" by Trevor Hastie, Robert Tibshirani, Jerome Friedman. One of the key references of the field. Great coverage of linear models, regularization, kernel methods, model evaluation, ensembles, neural nets, unsupervised learning. The PDF is available for free.  
+[Matplotlib Docs](https://matplotlib.org/stable/contents.html)
 
-"[Deep Learning](http://www.deeplearningbook.org/)" by Ian Goodfellow, Yoshua Bengio, Aaron Courville. The current reference for deep learning. Chapters can be downloaded from the website.
+[Scikit-Learn Docs](https://scikit-learn.org/stable/user_guide.html)
 
-"[An Introduction to Statistical Learning (with Applications in R)](http://www-bcf.usc.edu/~gareth/ISL/)" by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani. More introductory version of the above book, with many code examples in R. The PDF is also available for free. (Note that we won't be using R in the main course materials, but the examples are still very useful).
-
-"[Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/)" by Carl Edward Rasmussen and Christopher K. I. Williams. The reference for Bayesian Inference. Also see [David MacKay's book](http://www.inference.phy.cam.ac.uk/itila/book.html) for additional insights. Also see [this course by Neil Lawrence](http://inverseprobability.com/mlai2015/) for a great introduction to Gaussian Processes, all from first principles.
-
+[Virtualenv Docs](https://virtualenv.pypa.io/en/latest/)

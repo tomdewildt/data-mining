@@ -212,5 +212,8 @@ $RECYCLE.BIN/
 *.lnk
 
 ### Custom ###
+# Assignment notebooks
+assignments/
+
 # Scratch notebook
 notebooks/scratch.ipynb
